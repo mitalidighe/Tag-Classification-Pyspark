@@ -5,12 +5,12 @@
 
 *Feature Engineering*
 
-Extracted Top 50 tags based on their frequency in the dataset
+Extracted Top 50 tags based on their frequency in the dataset.
 Processed tokens by tokenizing text, removing stop words, and applying TF-IDF to generate features
 
 *Model Development*
 
-Trained 50 logistic regression models, one for each tag, using SparkML
+Trained 50 logistic regression models, one for each tag, using SparkML.
 Models predict whether a tag applies to a post based on the TF-IDF scores
 
 *Model Storage*
@@ -19,7 +19,7 @@ Saved the trained models to Google Cloud Storage for efficient access during inf
 
 *Inference*
 
-Loaded models to predict tags from sample data
+Loaded models to predict tags from sample data.
 Combined the predictions to form a list of recommended tags for each post
 
 
